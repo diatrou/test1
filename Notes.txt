@@ -1,0 +1,82 @@
+GIT 101
+Version Control, Git & GitHub
+
+Παρόμοιες υπηρεσίες	
+	gitlab, bitbacket
+
+VCS
+	Version Control System
+
+cvcs
+	centralized
+
+dvcs			
+	distributed
+
+git: dvcs
+
+Commits	
+	(τοπικό) ιστορικό αλλαγών
+
+Feature Branches
+	διακλάδωση
+
+Σε cmd
+	git --version
+
+Σε visual studio code
+	view-terminal 
+	=> git --version
+
+default shell		
+	bash.exe (από git)
+
+download and setup
+	https://www.git-scm.com/
+
+Ενεργοποίηση παρακολούθησης git
+	git init
+
+Έλεγχος
+	git add
+
+Ένταξη στο ιστορικό
+	git commit
+
+Τι έχει αλλάξει
+	git status
+
+master
+	τοπικό αποθ.
+
+origin
+	απομακρ. αποθ.
+
+push
+	ανέβασμα
+
+pull
+	ενημέρωση τοπικού αποθ.
+
+fork
+	"κλώνος" για δοκιμές
+
+προσθήκη στο τοπικό
+git remote add origin https://github.com/diatrou/GIT_lesson
+
+https://github.com/diatrou/GIT_lesson.git
+
+1ο βήμα
+	git add -A
+
+2ο βήμα
+	git commit -m "Adding info"
+
+3o βήμα
+	git push -u origin master 
+4o βήμα
+	git config --global user.email "diatrou@gmail.com"
+
+	git config --global user.name "Dimitris Iatrou"
+
+git pull origin master
